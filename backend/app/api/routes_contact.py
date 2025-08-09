@@ -12,7 +12,7 @@ load_dotenv()
 
 router = APIRouter()
 
-@router.post("/contact")
+@router.post("/post")
 async def send_contact_email(contact: ContactForm):
     try:
         # Email configuration
